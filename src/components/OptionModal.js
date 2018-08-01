@@ -10,7 +10,10 @@ const OptionModal = props => (
     >
         <h3>Selected Option</h3>
         {props.selectedOption && <p>{props.selectedOption}</p>}
-        <button onClick={props.onModalClose}>OK</button>
+        <button
+            className="button"
+            onClick={props.onModalClose}
+        >OK</button>
     </Modal>
 );
 
